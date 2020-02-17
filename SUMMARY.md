@@ -1,9 +1,8 @@
-# Summary
+# Summaryy
 
-* [Introduction](intro.md)
-  * [Why F♭?](why.md)
+* [Introductionnn](intro)
   * [Demo](demo.md)
-  * [F♭ by example](f-by-example.md)
+  * [Why F♭?](why.md)
   * [The Stack and the Environment](the-stack-and-the-repl.md)
   * [The REPL](the-repl.md)
   * [History](history.md)
@@ -27,7 +26,7 @@
 * [Internal Words](internal-words.md)
   * [Core](api/core.md)
   * [Base](api/base.md)
-  * [Vocab](api/vocab.md)
+  * [Dict](api/dict.md)
   * [Math](api/math.md)
   * [Node](api/node.md)
   * [Objects](api/objects.md)
@@ -39,4 +38,5 @@
   * [Dice Rolls for Dungeons & Dragons \(and other games\)](dice-rolls-for-dungons-and-dragons-and-other-games.md)
   * [The Fridge Game](the-fridge-game.md)
   * [99-problems](99-problems-solved)
+* [F♭ by example](f-by-example.md)
 
