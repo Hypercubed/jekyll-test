@@ -4,7 +4,7 @@ Unlike many other languages, f♭ does not have a concept of variables or lambda
 
 ```
 f♭> x: [ 123 ] ;
-[  ]
+[ ]
 
 f♭> x
 [ 123 ]
@@ -12,9 +12,6 @@ f♭> x
 f♭> x: [ 456 ] ;
 Error: Cannot overwrite definition: x
 [  ]
-
-f♭> x rcl
-[ 123 123 ]
 
 f♭> clr [ x: [ 456 ] ; x ] fork x
 [ [ 456 ] 123 ]

@@ -2,7 +2,7 @@
 
 ## Hello World
 
-Basic helow world:
+Basic hello world:
 
 ```
 'Hello World!' println
@@ -44,11 +44,13 @@ Hello, everyone!
 ## Guessing game
 
 ```
-'Guess the number!' println
-'Please input your guess.' println
-prompt
-
-'You guessed: ' swap + println
+f♭> guess-game: [
+  'Guess the number!' println
+  'Please input your guess.' println
+  prompt
+  'You guessed: ' swap + println
+] ;
+f♭> guess-game
 ```
 
 ## Average Some Values
@@ -134,7 +136,3 @@ quad: [
 
 1 2 3 quad
 ```
-
-## Various Project Euler solutions
-
-See [euler.md](./euler.md).

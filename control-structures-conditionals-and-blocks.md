@@ -1,5 +1,7 @@
 # Control Structures, Conditionals and Blocks
 
+## Choose
+
 The core control mechanism in f♭ is the conditional \(ternary\) operator `choose` word.
 
 ```
@@ -33,10 +35,13 @@ f♭> clr false [ 1 2 + ] [ 1 2 * ] branch
 [ 2 ]
 ```
 
-TBD:
+## When, Unless
 
-`when`
-`unless`
+TBR
+
+## Switch, Case
+
+TBR
 
 
 

@@ -2,7 +2,7 @@
 
 ## Lists
 
-Lists / Arrays are surrounded by square (`[]`) or round (`()`) brackets with optionally comma-separated elements.  The difference being that expressions within round brackets are executed immediately.
+Lists / Arrays are surrounded by square (`[]`) or round (`()`) brackets with optionally comma-separated elements (recall that commas are whitespace).  The difference being that expressions within round brackets are executed while square brackets are lazy.
 
 ```
 f♭> ( 1 2 )

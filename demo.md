@@ -16,7 +16,7 @@ f♭> -1 sqrt
 [ 0+1i ]
 
 f♭> 1 atan 4 *
-[ 0+1i, 3.1415926535897932385 ]
+[ 0+1i 3.1415926535897932385 ]
 
 f♭> * exp
 [ -1-3.7356616720497115803e-20i ]
@@ -31,16 +31,18 @@ f♭> mersenne?: [ 2 swap ^ 1 - prime? ] ;
 []
 
 f♭> 10 integers
-[ [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] ]
+[ [ 1 2 3 4 5 6 7 8 9 10 ] ]
 
 f♭> [ mersenne? ] map
-[ [ true, true, true, false, true, false, true, false, false, false ] ]
+[
+  [ false true true false true false true false false false ]
+]
 
 f♭> clr
 []
 
-f♭> 1000 !
-[ 4.0238726007709377384e+2567 ]
+f♭> 120 !
+[ 6.689502913449127e+198 ]
 
 f♭> clr
 []
@@ -48,7 +50,7 @@ f♭> clr
 f♭> i !
 [ 0.49801566811835599106-0.15494982830181068731i ]
 
-f♭> { first: "Manfred" }
+f♭> clr { first: "Manfred" }
 [ { first: 'Manfred' } ]
 
 f♭> { last: 'von Thun' }

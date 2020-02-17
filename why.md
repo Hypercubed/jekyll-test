@@ -29,13 +29,13 @@ One of the best things \(or worse things if you're so inclined\) about stack bas
 
 I count all three!  In a post-fix language we write:
 
-```
+```forth
 [1 2 3] [ 2 * pi * sin ] map
 ```
 
 Not only is it shorter but it is all postfix... in fact it is consistently Subject-Verb \(or Subject-Object-Verb\).  Also notice we didn't need to choose a name for the temperary variable `x`.
 
-But look at how definitions are defined in [Joy](https://hypercubed.github.io/joy/joy.html) the grand father of concatenative languages:
+But look at how definitions are defined in [Joy](https://hypercubed.github.io/joy/joy.html) (the grand father of concatenative languages):
 
 ```
 DEFINE tps == 2 * PI * sin .

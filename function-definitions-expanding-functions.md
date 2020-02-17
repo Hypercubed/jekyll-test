@@ -1,12 +1,5 @@
 # Function Definitions / Expanding Functions
 
-TBD:
-
-`def`
-`bind`
-`defer`
-`;`
-
 ## Definition convention
 
 * Subject-(Object-)Verb pattern
@@ -18,6 +11,14 @@ TBD:
 * Types should be nouns
   * `string`, `number`, `complex`
 * By convention words begging with underscore `_` are considered private.
+
+## Inlining Defintions
+
+TBR
+
+## Defering Words
+
+TBR
 
 
 

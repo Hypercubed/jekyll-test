@@ -48,7 +48,7 @@ f♭> ln
 f♭> clr
 [  ]
 
-f♭> [ '3+2i':complex ]
+f♭> [ '3+2i' :complex ]
 [ [ 3+2i ] ]
 
 f♭> ln
@@ -99,13 +99,22 @@ f♭> '1/1/1990' date
 As with complex values, strings can be converted to dates using the immediate version `:date`
 
 ```
-f♭> [ '1/1/1990':date ]
+f♭> [ '1/1/1990' :date ]
 [ [ Mon Jan 01 1990 00:00:00 GMT-0700 (Mountain Standard Time) ] ]
 ```
 
-## Words
+## Regex
 
-A word \(aka keys\) can be added to the stack without execution by either post-fixing the word with a colon \(`:`\) or converting a string to a word using a colon \(`:`\).
+Regular expressions values are converted from strings:
+
+```
+f♭> '/\.*/g' :regexp
+[ /\.*/g ]
+```
+
+## Keys
+
+A key can be added to the stack without execution by either post-fixing the word with a colon \(`:`\) or converting a string to a key using a colon \(`:`\).
 
 ```
 f♭> x:
