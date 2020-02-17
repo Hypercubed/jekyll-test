@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: F-Flat
+baseurl: "jekyll-test" # the subpath of your site, e.g. /blog
+url: "https://hypercubed.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hypercubed
 github_username:  hypercubed
 show_downloads: false
